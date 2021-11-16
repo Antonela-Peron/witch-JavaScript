@@ -1,8 +1,26 @@
 body{
 	background-color: #110f0fea;
 }
-header, .alert{
+.nav__sticky, .alert{
 	z-index: 100;
+}
+.logo__centrado{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #2e0302;
+}
+.nav__letra{
+	font-size: 22px;
+	font-weight: 300;
+}
+.margin__derecha{
+	margin-right: 20px;
+}
+.fondo__negro{
+	background-color: black;
 }
 .texto__bordo{
 	color: #2e0302;
@@ -14,6 +32,9 @@ header, .alert{
 	background-color: #171717;
 }
 
+.boton__añadir:hover{
+	background-color: black;
+}
 .carrito{
 	min-height: 70vh;
 	max-width: 1000px;
@@ -24,7 +45,7 @@ header, .alert{
 	display: flex;
 }
 .table__productos > img{	
-	width: 9rem;
+	width: 7rem;
 	object-fit: contain;
 	border-radius: 6px;
 	margin-right: 20px;
