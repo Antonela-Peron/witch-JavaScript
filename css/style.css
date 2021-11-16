@@ -73,3 +73,14 @@ body{
 .texto__compra--margenSup{
 	margin-top: 400px;
 }
+
+.imgs__inicio--marginTB{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.margen__T--alto{
+	margin-top: 500px;
+}
+.margin__B--alto{
+	margin-bottom: 500px;
+}
